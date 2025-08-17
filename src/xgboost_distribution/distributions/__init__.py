@@ -9,6 +9,7 @@ from xgboost_distribution.distributions.negative_binomial import (  # noqa
 )
 from xgboost_distribution.distributions.normal import Normal  # noqa
 from xgboost_distribution.distributions.poisson import Poisson  # noqa
+from xgboost_distribution.distributions.gamma import Gamma  # noqa
 
 # TOTA: alternative way of importing distribution subclasses?
 # __all__ = ["normal"]

@@ -28,6 +28,7 @@ def get_ll_score_func(
         "negative-binomial": scipy.stats.nbinom.logpmf,
         "normal": scipy.stats.norm.logpdf,
         "poisson": scipy.stats.poisson.logpmf,
+        "gamma": scipy.stats.gamma.logpdf,
     }
 
     def score_func(y, y_pred):
